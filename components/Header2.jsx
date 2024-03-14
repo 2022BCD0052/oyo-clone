@@ -1,3 +1,5 @@
+import Login from '@/pages/login'
+import Link from 'next/link'
 import React from 'react'
 
 const Header2 = () => {
@@ -19,9 +21,10 @@ const Header2 = () => {
             {
                 list.map((item,index)=>{
                     return(
+                        <Link href={'/hotels'}>
                         <span key={index.name} className=''>
                            { item.name}
-                        </span>
+                        </span></Link>
                     )
                 })
             }

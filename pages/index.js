@@ -5,14 +5,15 @@ import Header3 from '@/components/Header3'
 import Image from 'next/image'
 import Head from 'next/head'
 import Header4 from '@/components/Header4'
+import Footer from '@/components/Footer'
 
 const Index = () => {
   return (
     <div>
       <Head>
-        <title>Oyo : India's Best Online Hotel Booking Site For Sanitize Stay</title>
+      <title>Oyo : India's Best Online Hotel Booking Site For Sanitize Stay</title>
         <meta name="description" content="OYO : India's Best Online Hotel Booking Site For Sanitize Stay" />
-        <link rel="icon" href="/icon.png" />
+    
       </Head>
       <Headers />
       <Header2 />
@@ -31,6 +32,8 @@ const Index = () => {
         </div>
         
       </div>
+
+      <Footer/>
     </div>
 
   )
