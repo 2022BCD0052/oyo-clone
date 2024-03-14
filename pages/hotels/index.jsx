@@ -10,10 +10,8 @@ const Hotels = () => {
   return (
 
     // <div className='className="flex  top-12 relative '>
-<> 
-
+<div> 
 <Header1/>
-    
   <div className={styles.container} >
 
 
@@ -33,7 +31,7 @@ const Hotels = () => {
     </div>
 
     <Footer/>
-</>
+</div>
 
  
   )

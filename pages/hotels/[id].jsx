@@ -161,7 +161,7 @@ export default function App() {
                                         </div>
 
                                         <div className=''>
-                                            <Image src={'/img.jpeg'} width={200} height={100} className='rounded-md'></Image>
+                                            <Image src={'/img.jpeg'} width={200} height={100} alt='' className='rounded-md'></Image>
                                         </div>
                                     </div>
 

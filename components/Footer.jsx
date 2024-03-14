@@ -81,7 +81,7 @@ const Footer = () => {
                 <div className="w-1/2  p-3 font-bold ">
                     <div className='flex items-center text-xl'>
                         <Image src="/logo.png" alt="logo" width={100} height={100} className=" " />
-                        <p className='text-bold'>World's leading chain of hotels and homes</p>
+                        <p className='text-bold'>World is leading chain of hotels and homes</p>
                     </div>
                 </div>
 
@@ -100,7 +100,7 @@ const Footer = () => {
             </div>
             {/*  */}
 
-            <div  className='p-3 mx-8 px-10 py-2'>
+            <div className='p-3 mx-8 px-10 py-2'>
 
                 <div className='flex justify-between py-5 border-b   whitespace-nowrap  flex-wrap  pt-3 '>
 
@@ -220,12 +220,12 @@ const Footer = () => {
 
                 <div className='flex justify-between'>
 
-                    <div className='flex py-5 gap-6 '>
-                        <a href="/" className='border p-2 rounded-full cursor-pointer text-white'> <FaInstagram size={16} /></a>
-                        <a href="/" className='border p-2 rounded-full cursor-pointer text-white'> <FaFacebook size={16} /></a>
-                        <a href="/" className='border p-2 rounded-full cursor-pointer text-white'> <FaTwitter size={16} /></a>
-                        <a href="/" className='border p-2 rounded-full cursor-pointer text-white'> <FaPinterestP size={16} /></a>
-                        <a href="/" className='border p-2 rounded-full cursor-pointer text-white'> <CiPlay1 size={16} /></a>
+                    <div className='flex py-5 gap-6'>
+                        <Link to="/" className='border p-2 rounded-full cursor-pointer text-white'><FaInstagram size={16} /></Link>
+                        <Link to="/" className='border p-2 rounded-full cursor-pointer text-white'><FaFacebook size={16} /></Link>
+                        <Link to="/" className='border p-2 rounded-full cursor-pointer text-white'><FaTwitter size={16} /></Link>
+                        <Link to="/" className='border p-2 rounded-full cursor-pointer text-white'><FaPinterestP size={16} /></Link>
+                        <Link to="/" className='border p-2 rounded-full cursor-pointer text-white'><CiPlay1 size={16} /></Link>
                     </div>
                     <div className=' flex items-center'>
                         <p className='text-white'>2013-2024 © Oravel Stays Limited</p>
@@ -234,7 +234,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            
+
         </div>
     )
 }

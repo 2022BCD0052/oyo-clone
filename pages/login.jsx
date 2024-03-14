@@ -38,7 +38,7 @@ const handleSignup = () => {
 
         <div className="flex   w-9/12 mt-12 text-justify text-white gap-9">
           <div className=' mt-20'>
-            <p className='font-bold text-5xl py-6'>There's a smarter way to oyo around</p>
+            <p className='font-bold text-5xl py-6'>There is a smarter way to oyo around</p>
             <p className='text-2xl'>
               <span>Sign in with your phone number to access all your bookings, profile and more.</span>
 

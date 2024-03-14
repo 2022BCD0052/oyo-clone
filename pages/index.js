@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <div>
       <Head>
-      <title>Oyo : India's Best Online Hotel Booking Site For Sanitize Stay</title>
+      <title>Oyo : India Best Online Hotel Booking Site For Sanitize Stay</title>
         <meta name="description" content="OYO : India's Best Online Hotel Booking Site For Sanitize Stay" />
     
       </Head>
